@@ -1,0 +1,97 @@
+.message{
+    display: flex;
+    justify-content: center;
+}
+
+.message .container{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.message .breadCrumb {
+    margin: 20px 0;
+}
+.message .see-msg{
+    margin: 30px 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 500px;
+    overflow: scroll;
+}
+
+.message .sender{
+    max-width: 600px;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+.message .sender p{
+    padding: 20px;
+    background-color: rgb(230, 222, 222);
+    border-radius: 0 15px 15px 15px;
+    margin: 0;
+}
+.message .sender img{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.message .reciever{
+    
+    flex-direction: row-reverse;
+    align-self: flex-end;
+    align-items: end;
+}
+.message .reciever p{
+    padding: 20px;
+    background-color: royalblue;
+    border-radius: 15px 15px 0px 15px;
+    margin: 0;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #fff; 
+   
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(235, 229, 229); 
+    border-radius: 10px;
+  }
+  
+  .message .write-msg form{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  }
+  .message .write-msg textarea{
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    resize: none;
+    outline: none;
+  }
+  .message hr{
+    border: 0.5px solid rgb(230, 224, 224);
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .message .write-msg button{
+    background-color: rgb(25, 187, 25);
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+ 
+  }

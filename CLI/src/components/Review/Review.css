@@ -1,0 +1,47 @@
+  .reviewSection .review {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+    .reviewSection .review .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+    .reviewSection .review .user-profile img {
+    border-radius: 50%;
+    height: 50px;
+  }
+    .reviewSection .review .user-profile .user-info {
+    display: flex;
+    flex-direction: column;
+  }
+    .reviewSection .review .user-profile .user-info span:first-child {
+    font-weight: 700;
+  }
+    .reviewSection .review .star img {
+    width: 25px;
+    margin: 20px 10px 20px 0;
+  }
+    .reviewSection .review p {
+    margin: 0 0 20px;
+  }
+    .reviewSection .review .helpful {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+    .reviewSection .review .helpful img {
+    width: 16px;
+    cursor: pointer;
+  }
+    .reviewSection .review .helpful span {
+    font-weight: 500;
+    color: black;
+  }
+    .reviewSection .review hr {
+    width: 100%;
+    border: 0.5px solid rgb(224, 219, 219);
+    margin-bottom: 0;
+  }

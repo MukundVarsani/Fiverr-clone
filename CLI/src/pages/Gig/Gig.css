@@ -1,0 +1,185 @@
+.gig .container {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.gig .left {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.gig .left span {
+  color: #555;
+  font-weight: 400;
+}
+.gig .left h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #555;
+  font-weight: 500;
+}
+.gig .left .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.gig .left .user img {
+  width: 20px;
+}
+.gig .left .user span {
+  color: black;
+  font-weight: 500;
+}
+.gig .left h2 {
+  margin: 0;
+}
+.gig .left p {
+  color: #555;
+  font-weight: 500;
+  margin: 0;
+}
+.gig .left .sellerProfile {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.gig .left .sellerProfile .user-info {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.gig .left .sellerProfile .pp {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.gig .left .sellerProfile .star {
+  width: 16px;
+  margin-right: 5px;
+}
+
+.gig .left .sellerProfile .contact {
+  padding: 8px 16px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #fff;
+  background-color: rgb(12, 197, 12);
+  transition: 0.2s linear;
+  cursor: pointer;
+}
+.gig .left .sellerProfile .contact:hover {
+  background-color: rgb(7, 151, 7);
+}
+
+.gig .left .sellerDetail {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
+.gig .left .sellerDetail .detail-top {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gig .left .sellerDetail .detail-top > div {
+  width: 50%;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.gig .left .sellerDetail .detail-top span:last-child {
+  font-weight: 700;
+}
+.gig .left .sellerDetail hr {
+  width: 100%;
+  height: 0;
+  margin: 0 0 10px 0;
+  border: 0.5px solid rgb(226, 223, 223);
+}
+
+/* ---------------------------right section-------------------------- */
+.gig .right {
+  background-color: #fff;
+  margin-top: 20px;
+  max-height: 400px;
+  position: sticky;
+  top: 160px;
+  max-width: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid lightgray;
+  text-align: left;
+}
+.gig .right .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gig .right .price h2 {
+  margin: 0;
+  font-weight: 700;
+}
+.gig .right .price span {
+  font-size: 28px;
+}
+.gig .right p {
+  font-weight: 500;
+}
+.gig .delivery {
+  display: flex;
+  justify-content: space-between;
+}
+.gig .delivery .delev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gig .delivery .revision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gig .delivery img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.gig .right .content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+  justify-content: flex-start;
+}
+.gig .right .content img {
+  width: 15px;
+}
+.gig .right .content .ic {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gig .right button {
+  padding: 15px 0;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: rgb(11, 190, 11);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.gig .right button:hover {
+  background-color: rgb(10, 126, 10);
+}

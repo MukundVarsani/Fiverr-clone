@@ -1,0 +1,78 @@
+.features {
+    background-color: #f1fdf7;
+}
+
+.features .container{
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 100px 0;
+    gap: 200px;
+}
+
+.features .item video {
+  max-height: 450px;
+  max-width: 700px;
+}
+.features .item h2 {
+  color: #404145;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.features .item .title {
+  font-weight: 500;
+}
+.features .item p,
+.features .item .title {
+  color: #404145;
+}
+
+.features .title img {
+  width: 15px;
+  object-fit: contain;
+  margin: 0 10px 0 0;
+}
+
+
+/* ------------Bussiness-solution-------------------- */
+
+.bussiness-sol{
+    background-color: #0d084d;
+}
+
+.bussiness-sol .item h2 {
+    color: #fff;
+    font-weight: 700;
+    max-width: 450px;
+    font-size: 36px;
+  }
+  
+.bussiness-sol .item p,
+.bussiness-sol .item .title {
+  color: #fff;
+  font-weight: 700;
+}
+
+.bussiness-sol .item .side-img{
+    max-height: 450px;
+    max-width: 700px;
+    object-fit: contain;
+  }
+
+.explore{
+    display: inline-block;
+    background-color: green;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.2s linear;
+}
+.explore:hover{
+  background-color: rgb(3, 66, 3);
+}

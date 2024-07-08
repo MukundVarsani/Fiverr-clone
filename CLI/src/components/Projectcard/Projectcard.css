@@ -1,0 +1,47 @@
+.ProjectCard{
+    width:252px;
+    height: 344px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px lightgray;
+
+}
+.ProjectCard img{
+    width: 100%;
+    object-fit: cover;
+    height: 70%;
+    transition: 0.3s linear;
+}
+.ProjectCard img:hover{
+    transform: scale(1.2);
+}
+.carousel-track {
+    height: 370px !important;
+}
+
+.ProjectCard .info{
+    width: 100%;
+    display: flex;
+    height: 30%;
+    padding: 0 5px;
+    align-items: center;
+    justify-content: space-between;
+} 
+.ProjectCard .info .pp img{ 
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.ProjectCard .info .user-info{
+    margin-right: 10px;
+}
+.ProjectCard .info .user-info p{
+    margin: 10px 0;
+}
+.ProjectCard .user-info{
+color :black;
+text-decoration: none;
+}

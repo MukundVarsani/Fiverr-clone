@@ -1,0 +1,104 @@
+.gigs {
+  display: flex;
+  justify-content: center;
+}
+
+.gigs .container {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  padding: 30px 0;
+}
+.gigs .container h1{
+  margin: 0;
+}
+.gigs .breadceumbs {
+  font-weight: 300;
+  font-size: 13px;
+  color: #555;
+}
+
+.gigs p {
+  font-weight: 300;
+  color: #999;
+  margin: 0;
+}
+
+.gigs .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.gigs .menu input {
+  outline: none;
+  padding: 5px;
+  border: 1px solid lightblue;
+}
+.gigs .menu input::placeholder {
+  color: lightgray;
+}
+.gigs .menu .left {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  /* margin-bottom: 50px; */
+}
+.gigs .menu .left button {
+  background-color: green;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.gigs .menu .right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  position: relative;
+}
+.gigs .menu .right .sortBy {
+  font-weight: 300;
+  color: #555;
+}
+.gigs .menu .right .sortType {
+  font-weight: 700;
+  color: #555;
+  width: 90px;
+}
+.gigs .menu .right img{
+    width: 15px;
+    cursor: pointer;
+}
+
+.gigs .menu .right .rightmenu{
+    position: absolute;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    top: 30px;
+    right: 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left ;
+    font-weight: 700;
+    color: #555;
+    
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+}

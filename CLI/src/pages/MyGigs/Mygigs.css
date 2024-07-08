@@ -1,0 +1,38 @@
+.mygigs{
+display: flex;
+justify-content: center;
+}
+
+.mygigs .container{
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mygigs .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mygigs .title button{
+background-color: rgb(13, 179, 13);
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+color: #fff;
+cursor: pointer;
+}
+.mygigs .delete{
+    width: 25px;
+}
+.mygigs th{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.mygigs tr{
+   height: 50px;
+}
+.mygigs tr:nth-child(even){
+    background-color: #1dbf730f;
+}

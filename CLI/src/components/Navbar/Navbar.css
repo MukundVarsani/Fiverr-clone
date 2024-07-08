@@ -1,0 +1,141 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #134113;
+  color: #fff;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  transition: 0.5s linear;
+  position: sticky;
+}
+
+.navbar.active {
+  background-color: #fff;
+  color: #000;
+  position: sticky;
+  top: 0;
+}
+
+
+
+.navbar .container {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.navbar .container .logo {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.navbar .container .dot {
+  font-weight: 900;
+  color: gray;
+}
+.navbar .container .links {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.navbar .container .links span {
+  cursor: pointer;
+}
+.navbar .links button {
+  color: #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: 0.2s linear;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;;
+  
+}
+
+.navbar .links button:hover {
+  border-color: #086f08;
+  background-color: #086f08;
+}
+
+
+.navbar.active .links button{
+  color: #000;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid  #134113;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;;
+  transition: 0.2s linear;
+}
+
+.navbar.active .links button:hover{
+  background:  #086f08;
+  color: #fff;
+  border-color: #086f08;
+}
+
+.navbar .links .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.navbar .user img {
+  width: 100%;
+  border-radius: 50px;
+}
+.navbar .user .options {
+  position: absolute;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: black;
+  gap: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+.navbar .line {
+  width: 100vw;
+  height: 0;
+  border: 0.5px solid gray;
+}
+.navbar .menu {
+  color: gray;
+  width: 1400px;
+  padding: 10px 0;
+  display: flex;
+  font-weight: 300;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  justify-content: space-between;
+}
+@keyframes up-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100px;
+  }
+}
+
+.navbar .menu span {
+  cursor: pointer;
+}

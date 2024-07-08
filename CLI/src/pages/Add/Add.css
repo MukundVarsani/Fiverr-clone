@@ -1,0 +1,87 @@
+.add{
+    display: flex;
+    justify-content: center;
+}
+.add .container{
+    width: 1400px;
+    display: flex;
+    gap: 48px;
+}
+
+.add h2{
+    color: #999;
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+}
+.add .left{
+    margin-top: 20px;
+}
+.add .left, .add .right{
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+}
+.add .left label , .add .right label{
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #999;
+    font-size: 24px;
+}
+
+.add .left input, .add .right input{
+    width: 90%;
+    height: 24px;
+    padding: 20px 0;
+    margin-bottom: 24px;
+    outline: none;
+    padding-left: 20px;
+}
+.add .left textarea , .add .right textarea{
+    width: 90%;
+    resize: none;
+    height: 200px;
+    padding: 0;
+    /* padding: 20px 0px 0 20px; */
+    font-size: 18px;
+    outline: none;
+}
+.add .left button{
+    width: 90%;
+    color: #fff;
+    font-weight: 700;
+    background-color: rgb(48, 163, 48);
+    padding: 25px 15px;
+    border: 1px solid rgb(48, 163, 48);
+    cursor: pointer;
+    margin-top: 10px;
+}
+.add .right{
+    margin-top: 50px;
+} 
+.add .right label{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #999;
+    font-size: 18px;
+}
+
+.add .right textarea{
+    width: 90%;
+    resize: none;
+    height: 180px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+.add .right input{
+    width: 90%;
+    height: 20px;
+    padding: 20px 0;
+    margin-bottom: 14px;
+    outline: none;
+    padding-left: 20px;
+}
